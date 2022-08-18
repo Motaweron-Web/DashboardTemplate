@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\File;
 
 Trait  PhotoTrait
 {
-    function saveImage($photo,$folder,$type = 'image',$quality_ratio = 70){
+    function saveImage($photo,$folder,$type = 'image',$quality_ratio = 90){
 
         // to save photos
         if ($type == 'image' || $type == null){
