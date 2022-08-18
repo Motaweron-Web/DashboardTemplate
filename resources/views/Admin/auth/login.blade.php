@@ -7,7 +7,7 @@
 </head>
 
 <div class="container">
-    <main class="signup-container">
+    <main class="signup-container" style="margin-top: 40px">
         <h1 class="heading-primary">تسجيل الدخول<span class="span-blue">.</span></h1>
         <p class="text-mute">يرجي ادخال بيانات التحقق</p>
 
@@ -27,8 +27,8 @@
         </form>
     </main>
     <div class="welcome-container">
-        <h1 class="heading-secondary">مرحبا بعودتك <span class="lg">{{($setting->title) ?? 'تطبيق مكاسب'}}</span></h1>
-        <img src="{{asset('assets/uploads/log.gif')}}" alt="login" style="max-height: 600px;mix-blend-mode: multiply">
+        <h1 class="heading-secondary">مرحبا بعودتك <span class="lg">{{($setting->title) ?? 'تطبيق'}}</span></h1>
+        <img src="{{asset('assets/uploads/log.gif')}}" alt="login" style="max-height: 500px;mix-blend-mode: multiply">
     </div>
 </div>
 
